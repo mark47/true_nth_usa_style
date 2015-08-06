@@ -1,5 +1,5 @@
 # true_nth_usa_style
-CSS, iconography and demo page for the Movember True NTH USA portal
+CSS, Iconography and Demo Page for the Movember True NTH USA portal
 
 ## Contents
 
