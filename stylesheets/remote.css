@@ -1,0 +1,24 @@
+/*body {
+    background-color: #a6a9a7;
+    background-image: url("../../img/banner_bg_white_bot.png");
+    background-repeat: repeat-x;
+    background-position: left top;
+    background-size: auto 120px;
+}*/
+.container {
+	background-color: #fff;
+}
+.navbar {
+	margin-bottom: 8px;
+	min-height: 40px;
+}
+.list-group > li > a {
+    margin: 0;
+    padding: 3px 6px 3px 16px;
+}
+
+/*** Style specific to cPRO ***/
+.sidebar-col {
+	background-color: #666868;
+	padding: 0;
+}
