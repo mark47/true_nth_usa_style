@@ -19,26 +19,26 @@ html, body {
 	min-height: 100%;
 	padding-top: 90px;
 }
-.intervention-left-col {
+.intervention-side-col {
 	background-color: #666868;
 	min-height: 100%;
 	overflow: auto;
 	color: #eee;
 }
-.intervention-left-col h1, .intervention-left-col h2, .intervention-left-col h3 {
+.intervention-side-col h1, .intervention-side-col h2, .intervention-side-col h3 {
 	color: #fff;
 }
-.intervention-left-col a {
+.intervention-side-col a {
 	color: #fff;
 }
-.intervention-left-col a:hover; {
+.intervention-side-col a:hover; {
 	color: #5e7b3a;
 }
-.intervention-left-col .nav-pills > li.active > a, .intervention-left-col  .nav-pills > li.active > a:hover, .intervention-left-col  .nav-pills > li.active > a:focus {
+.intervention-side-col .nav-pills > li.active > a, .intervention-side-col  .nav-pills > li.active > a:hover, .intervention-side-col  .nav-pills > li.active > a:focus {
 		background-color: #ffffff;
 		color: #5e7b3a;
 }
-.intervention-left-col .nav-pills > li > a:hover {
+.intervention-side-col .nav-pills > li > a:hover {
 		color: #5e7b3a;
 }
 .intervention-main-col {
@@ -46,6 +46,11 @@ html, body {
 	min-height: 100%;
 	overflow: auto;
 }
+
+.intervention-top-nav {
+	margin: 10px 0;
+}
+
 @media (max-width: 767px) {
 	.portal-header {
 		height: 70px;
@@ -56,8 +61,11 @@ html, body {
 	.intervention-main-row {
 		padding-top: 0;
 	}
-	.intervention-container, .intervention-main-col, .intervention-left-col, .intervention-main-row {
+	.intervention-container, .intervention-main-col, .intervention-side-col, .intervention-main-row {
 		height: auto;
 		min-height: inherit;
+	}
+	.intervention-top-nav {
+		margin: 2px 0;
 	}
 }
