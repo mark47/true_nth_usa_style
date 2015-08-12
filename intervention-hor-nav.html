@@ -12,6 +12,7 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <!-- jQuery served from CDNs -->
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
@@ -19,23 +20,44 @@
 
     <div class="container-fluid text-center portal-header">
 
-      <code>Main TrueNTH header called from portal will go here.</code>
+      <code>Main TrueNTH header called from portal will go here</code>
 
     </div>
     <div class="container intervention-container">
-      <div class="row intervention-main-row">
-          <div class="col-lg-2 col-md-3 col-sm-4 intervention-left-col">
-            <h2>Left Column</h2>
-            <hr />
-            <ul class="nav nav-pills nav-stacked">
-              <li role="presentation" class="active"><a href="#">Home</a></li>
-              <li role="presentation"><a href="#">Section 1</a></li>
-              <li role="presentation"><a href="#">Section 2</a></li>
-              <li role="presentation"><a href="#">Section 3</a></li>
-            </ul>
 
-          </div>
-          <div class="col-lg-10 col-md-9 col-sm-8 intervention-main-col">
+      <div class="row intervention-main-row">
+
+        <nav class="navbar navbar-default intervention-top-nav">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Intervention Title</a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">Section 1</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Section 2 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Dropdown 1</a></li>
+                      <li><a href="#">Dropdown 2</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+
+          <div class="col-xs-12 intervention-main-col">
             <h2>Main content area</h2>
 
             <h3>Headline 1</h3>
@@ -48,6 +70,12 @@
             <a href="" class="btn btn-default">Default button (as anchor)</a>
             <br /><br />
 
+            <h4>See Other Possible Layouts</h4>
+
+            <ul>
+              <li><a href="index.html">Intervention - Two column, left col with nav</a></li>
+              <li><a href="intervention-hor-nav.html">Intervetion - One column, horizontal nav</a></li>
+            </ul>
 
           </div>
       </div>
